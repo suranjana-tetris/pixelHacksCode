@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Facts Page-->
+        <scene sceneID="CgQ-IM-efc">
+            <objects>
+                <viewController storyboardIdentifier="FactsID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eak-y0-Pnk" userLabel="Facts Page" customClass="Facts" customModule="CoreMotionPost" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2c2-82-A3E">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Average carbon footprint per person  in the US is 16.5 tonnes. " textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" highlighted="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MEh-wK-n4P">
+                                <rect key="frame" x="20" y="39" width="279" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.73145186630000003" green="0.74000112480000002" blue="0.89819462439999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="5" highlighted="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eib-uG-Et2">
+                                <rect key="frame" x="67" y="92" width="315" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.89819462439999997" green="0.65272356210000004" blue="0.8889562593" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">The US has the highest rate of fossil  fuel emissions per capita in the world,  with the global average being closer to 4 tonnes.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="6" highlighted="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHV-tE-rfk">
+                                <rect key="frame" x="13" y="175" width="256" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.78473186041752419" green="0.87176165803108807" blue="0.65721460645953955" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="13" bottom="8" trailing="8"/>
+                                <string key="text">In 30 mins, at 3.5 mph,  a 125 pound person burns  120 cals, 155 pound person  burns 149 cals, and a 185 cal  person burns 178 cals!
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="1" height="7"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="By walking 50 steps you have saved 8.75  carbon emissions" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" highlighted="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DPN-z9-zgK">
+                                <rect key="frame" x="26" y="360" width="350" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.73145186630000003" green="0.74000112480000002" blue="0.89819462439999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="info.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bUT-CO-Lei">
+                                <rect key="frame" x="277" y="21.000000000000455" width="35" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="info.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="k7n-zX-2sN">
+                                <rect key="frame" x="359" y="73.000000000000455" width="35" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="info.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="MUT-bV-pkn">
+                                <rect key="frame" x="252" y="160.00000000000045" width="35" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jLu-A3-w4a"/>
+                        <color key="backgroundColor" red="0.94423979922279788" green="0.86207844521726062" blue="0.523108618865333" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1rh-oY-dz5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-786.95652173913049" y="1120.108695652174"/>
+        </scene>
+        <!--My Field-->
+        <scene sceneID="h55-ee-2jL">
+            <objects>
+                <viewController storyboardIdentifier="FieldID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hnZ-ew-E7f" userLabel="My Field" customClass="MyField" customModule="CoreMotionPost" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YRh-VS-UWG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PAD-cM-8FO">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="AHd-ne-kMe"/>
+                        <color key="backgroundColor" red="0.73457739637305697" green="0.58957690618004144" blue="0.45184227459779058" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ygc-CJ-NVA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-488.40579710144931" y="469.56521739130437"/>
+        </scene>
+        <!--Progress-->
+        <scene sceneID="GNU-ta-QZu">
+            <objects>
+                <viewController storyboardIdentifier="ProgressID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QkZ-Jt-zpQ" customClass="Progress" customModule="CoreMotionPost" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VnT-l7-BiL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="7oG-2h-3Pg"/>
+                        <color key="backgroundColor" red="0.65493919293947711" green="0.72757448186528495" blue="0.54851297067718063" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bax-ZD-W1X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1285" y="104"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JXV-X8-CCH">
+            <objects>
+                <viewController storyboardIdentifier="ViewControllerVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cqb-ut-N4d" customClass="ViewController" customModule="CoreMotionPost" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oeH-aF-9Yv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fe2-Jc-jru" colorLabel="IBBuiltInLabel-Yellow">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pedometer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5X-WJ-YmC">
+                                        <rect key="frame" x="10" y="45" width="394" height="33"/>
+                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="27"/>
+                                        <color key="textColor" red="1" green="0.86322344559999997" blue="0.0016834623899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Stationary" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uI3-pT-Bbq">
+                                        <rect key="frame" x="293" y="516" width="234" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.9152754353" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gy-wK-ItH">
+                                        <rect key="frame" x="0.0" y="686" width="414" height="50"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="SDB-hf-rrP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" title="Start">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="stopwatch" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="gvc-5U-adz">
+                                        <rect key="frame" x="17" y="545" width="50" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="light.max" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Abi-nm-isT">
+                                        <rect key="frame" x="304" y="548.66666666666663" width="47" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0f-ly-Zk8">
+                                        <rect key="frame" x="37" y="516" width="231" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.9152754353" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration" label="TEst"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="X0f-ly-Zk8" secondAttribute="trailing" constant="10" id="2jH-Hs-6Wn"/>
+                                    <constraint firstAttribute="bottom" secondItem="0gy-wK-ItH" secondAttribute="bottom" id="7pu-s8-hzX"/>
+                                    <constraint firstAttribute="trailing" secondItem="uI3-pT-Bbq" secondAttribute="trailing" constant="10" id="NlA-yQ-21Y"/>
+                                    <constraint firstAttribute="trailing" secondItem="0gy-wK-ItH" secondAttribute="trailing" id="YhH-Bh-mUi"/>
+                                    <constraint firstItem="x5X-WJ-YmC" firstAttribute="top" secondItem="Fe2-Jc-jru" secondAttribute="top" constant="45" id="ZFg-y5-B3b"/>
+                                    <constraint firstItem="X0f-ly-Zk8" firstAttribute="top" secondItem="x5X-WJ-YmC" secondAttribute="bottom" constant="55.5" id="abr-W5-MCW"/>
+                                    <constraint firstItem="x5X-WJ-YmC" firstAttribute="leading" secondItem="Fe2-Jc-jru" secondAttribute="leading" constant="10" id="gV9-UX-h3W"/>
+                                    <constraint firstItem="0gy-wK-ItH" firstAttribute="leading" secondItem="Fe2-Jc-jru" secondAttribute="leading" id="qg5-mP-Mql"/>
+                                    <constraint firstItem="uI3-pT-Bbq" firstAttribute="top" secondItem="X0f-ly-Zk8" secondAttribute="bottom" constant="50" id="r5P-9j-hhB"/>
+                                    <constraint firstItem="x5X-WJ-YmC" firstAttribute="centerX" secondItem="Fe2-Jc-jru" secondAttribute="centerX" id="sdS-gC-icv"/>
+                                    <constraint firstAttribute="trailing" secondItem="x5X-WJ-YmC" secondAttribute="trailing" constant="10" id="t91-eK-XeN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FZj-fR-XDw"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Fe2-Jc-jru" firstAttribute="top" secondItem="oeH-aF-9Yv" secondAttribute="top" id="Fkt-rt-qrI"/>
+                            <constraint firstAttribute="bottom" secondItem="Fe2-Jc-jru" secondAttribute="bottom" id="M7R-nh-6ep"/>
+                            <constraint firstAttribute="trailing" secondItem="Fe2-Jc-jru" secondAttribute="trailing" id="XLh-pQ-Ano"/>
+                            <constraint firstItem="Fe2-Jc-jru" firstAttribute="leading" secondItem="oeH-aF-9Yv" secondAttribute="leading" id="dSi-UC-lcp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="LzK-fZ-wvw"/>
+                    <connections>
+                        <outlet property="ActImage" destination="Abi-nm-isT" id="V7p-uD-PIH"/>
+                        <outlet property="StepsImg" destination="gvc-5U-adz" id="c49-UF-msC"/>
+                        <outlet property="activityTypeLabel" destination="uI3-pT-Bbq" id="sQn-if-QPj"/>
+                        <outlet property="startButton" destination="0gy-wK-ItH" id="8WE-w9-tGI"/>
+                        <outlet property="stepsCountLabel" destination="X0f-ly-Zk8" id="h2h-Tf-hQG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1o7-0u-WEH" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-487" y="-169"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.89819462439999997" green="0.65272356210000004" blue="0.8889562593" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+    <resources>
+        <image name="info.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="light.max" catalog="system" width="128" height="72"/>
+        <image name="stopwatch" catalog="system" width="121" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
